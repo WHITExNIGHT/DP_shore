@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <title>Ajax滚动加载数据</title>
+    <!--
+        @author:sm
+        @email:sm0210@qq.com
+        @desc:Ajax滚动加载数据
+    -->
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-size: 14px;
+        }
+
+        /*
+            box
+        */
+        .box {
+            width: 795px;
+            margin: 0 auto;
+        }
+
+        /*
+            ul
+        */
+        .list ul {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        /*
+            item
+        */
+        .list ul li {
+            width: 180px;
+            height: 00px;
+            margin-left: 15px;
+            margin-bottom: 15px;
+            float: left;
+            background-color: #ccc;
+            text-align: center;
+            line-height: 200px;
+            cursor: pointer;
+        }
+
+        /*
+            item鼠标经过
+        */
+        .list ul li:hover {
+            background-color: #e1e1e1;
+        }
+
+        /*
+            加载更多
+        */
+        #loading {
+            height: 50px;
+            width: 765px;
+            line-height: 50px;
+            text-align: center;
+            cursor: pointer;
+            margin: 0 auto;
+        }
+
+        /*
+            加载更多经过
+        */
+        #loading:hover {
+            background-color: #cecece;
+        }
+    </style>
+    <!-- 引入jquery -->
+    <script type="text/javascript" src="/static/dp_show/js/jquery-1.8.3.min.js"></script>
+    <!--  -->
+    <script type="text/javascript">
+        $(function () {
+            //渲染数据集合dom
+            var list = $("#list");
+            //加载更多dom
+            var loadingBtn = $("#loading");
+            //是否需要加载
+            var isLoad = true;
+            //当前查询第几页
+            var Page1 = 0;
+            var Page2 = 5;
+            //没有更多数据
+            var nomore_Text = '没有更多数据';
+
+
+            function f() {
+                $.get('/dp/test1/?page1=' + Page1 + '&page2=' + Page2, function (dic) {
+                    pageCount = dic.count;
+                    $.each(dic.data, function (index, item) {
+                        list.append('<li value=' + item.id + '>' +
+                            item['ititle']
+                                {#'<img src="/static/'+ item['img'] +'" >'#}
+                            + '</li>');
+                    });
+                    Page1 += 5;
+                    Page2 += 5;
+                    if (Page1 > pageCount) {
+                        //数据全部加载完毕
+                        isLoad = false;
+                        document.getElementById('loading').innerHTML = '没有了';
+                    }
+                });
+            }
+            /*
+                判断是否要加载接口
+            */
+            function isScrollLoad() {
+                //加载更多距离
+                var btn_top = loadingBtn.offset().top;
+                //窗体高度
+                var window_height = $(window).height();
+                //滚动距离
+                var scroll_Top = $(window).scrollTop();
+                //加载更多高度
+                var loading_height = loadingBtn.height();
+                //是否需要加载(底部距离是否小于窗口高度+滚动的距离)
+                return btn_top < scroll_Top + window_height - (loading_height - 5) ? true : false;
+            }
+
+            /*
+                滚动事件监听
+            */
+            $(window).scroll(function () {
+                //是否滚动到底部
+                var _needload = isScrollLoad();
+                //
+                if (_needload && isLoad) {
+                    //加载数据
+                    f();
+                }
+            });
+
+            /*
+                页面加载完毕执行一次查询
+            */
+            window.onload = function () {
+                //加载数据
+                f();
+            };
+
+            /*
+                点击加载更多
+            */
+            loadingBtn.click(function () {
+                //是否加载数据
+                if (isLoad)
+                    f();
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="box">
+    <!-- list -->
+    <div class="list">
+        <ul id="list">
+
+        </ul>
+    </div>
+    <!-- 加载更多 -->
+    <div id="loading">点击加载更多</div>
+</div>
+</body>
+</html>

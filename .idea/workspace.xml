@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="08c20e82-78e8-446b-9128-f5a4c5730ee2" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="DP_Share" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/dp_show/index1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="208" column="117" lean-forward="true" selection-start-line="208" selection-start-column="117" selection-end-line="208" selection-end-column="117" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#nav#0;n#body#0;n#div#0;n#!!top" />
+                <element signature="e#10986#11010#0#DjangoTemplate" />
+                <element signature="e#11302#11326#0#DjangoTemplate" />
+                <element signature="e#12167#12191#0#DjangoTemplate" />
+                <element signature="e#13032#13057#0#DjangoTemplate" />
+                <element signature="e#13899#13922#0#DjangoTemplate" />
+                <element signature="n#div#1;n#body#0;n#div#0;n#!!top" />
+                <element signature="e#16908#16914#0#HTML" expanded="true" />
+                <element signature="e#16957#16963#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#body#0;n#div#0;n#!!top" />
+                <element signature="n#script#0;n#body#0;n#div#0;n#!!top" />
+                <element signature="n#script#1;n#body#0;n#div#0;n#!!top" />
+                <element signature="n#script#2;n#body#0;n#div#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dp_show/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/dp_show/css/layout.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="2375" column="23" selection-start-line="2375" selection-start-column="23" selection-end-line="2375" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dp_show/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/dp_show/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="165" column="21" selection-start-line="165" selection-start-column="12" selection-end-line="165" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dp_show/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="8" selection-end-column="36" />
+              <folding>
+                <element signature="e#23#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>img</find>
+      <find>backstretch</find>
+      <find>assets</find>
+      <find>navbar-nav&gt;.active&gt;a:hover</find>
+      <find>.navbar-collapse.collapse</find>
+      <find>imp</find>
+      <find>form-control{height:</find>
+      <find>3px</find>
+      <find>display</find>
+      <find>1348</find>
+      <find>/static/</find>
+      <find>74</find>
+      <find>500</find>
+      <find>USE_TZ</find>
+      <find>contentArea</find>
+      <find>pp_description</find>
+      <find>src=&quot;</find>
+      <find>href=&quot;</find>
+      <find>site-bg</find>
+      <find>CSRF</find>
+      <find>hot</find>
+      <find>current</find>
+      <find>5px</find>
+      <find>thum</find>
+      <find>is-sticky</find>
+      <find>folio</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>/static</replace>
+      <replace>/static/dp_user/</replace>
+      <replace>src=&quot;/static/dp_show/</replace>
+      <replace>src=&quot;/static/dp_center/</replace>
+      <replace>href=&quot;/static/dp_center/</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/DP_Share/__init__.py" />
+        <option value="$PROJECT_DIR$/static/js/jquery.backstretch.min.js" />
+        <option value="$PROJECT_DIR$/static/bootstrap/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/static/js/scripts2.js" />
+        <option value="$PROJECT_DIR$/static/bootstrap/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/static/js/scripts.js" />
+        <option value="$PROJECT_DIR$/templates/dp_user/login.html" />
+        <option value="$PROJECT_DIR$/static/css/form-elements.css" />
+        <option value="$PROJECT_DIR$/templates/dp_user/register.html" />
+        <option value="$PROJECT_DIR$/static/css/style.css" />
+        <option value="$PROJECT_DIR$/static/css/skeleton.css" />
+        <option value="$PROJECT_DIR$/static/css/layout.css" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/static/dp_user/js/scripts2.js" />
+        <option value="$PROJECT_DIR$/static/dp_user/js/scripts.js" />
+        <option value="$PROJECT_DIR$/templates/dp_user/index.html" />
+        <option value="$PROJECT_DIR$/static/dp_show/css/skeleton.css" />
+        <option value="$PROJECT_DIR$/DP_Share/urls.py" />
+        <option value="$PROJECT_DIR$/dp_show/admin.py" />
+        <option value="$PROJECT_DIR$/static/dp_center/js/scripts.js" />
+        <option value="$PROJECT_DIR$/dp_show/models.py" />
+        <option value="$PROJECT_DIR$/dp_user/admin.py" />
+        <option value="$PROJECT_DIR$/dp_user/models.py" />
+        <option value="$PROJECT_DIR$/templates/dp_user/base.html" />
+        <option value="$PROJECT_DIR$/static/dp_center/css/templatemo-style.css" />
+        <option value="$PROJECT_DIR$/dp_user/urls.py" />
+        <option value="$PROJECT_DIR$/templates/dp_show/center.html" />
+        <option value="$PROJECT_DIR$/dp_user/views.py" />
+        <option value="$PROJECT_DIR$/templates/json.json" />
+        <option value="$PROJECT_DIR$/DP_Share/settings.py" />
+        <option value="$PROJECT_DIR$/templates/dp_show/test.html" />
+        <option value="$PROJECT_DIR$/static/dp_show/js/jquery.isotope.run.js" />
+        <option value="$PROJECT_DIR$/static/dp_user/bootstrap/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/static/dp_show/js/jquery.sticky.js" />
+        <option value="$PROJECT_DIR$/dp_show/urls.py" />
+        <option value="$PROJECT_DIR$/templates/dp_show/index1.html" />
+        <option value="$PROJECT_DIR$/dp_show/views.py" />
+        <option value="$PROJECT_DIR$/static/dp_show/css/layout.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="273" />
+    <option name="y" value="67" />
+    <option name="width" value="1382" />
+    <option name="height" value="925" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DP_Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DP_Share" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DP_Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DP_Share" type="462c0819:PsiDirectoryNode" />
+              <item name="DP_Share" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DP_Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DP_Share" type="462c0819:PsiDirectoryNode" />
+              <item name="dp_show" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DP_Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DP_Share" type="462c0819:PsiDirectoryNode" />
+              <item name="dp_user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DP_Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DP_Share" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DP_Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DP_Share" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DP_Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DP_Share" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="dp_show" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DP_Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DP_Share" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="dp_show" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DP_Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DP_Share" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="dp_show" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DP_Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DP_Share" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DP_Share" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DP_Share" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="dp_show" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../dailyfresh" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\PycharmProjects\DP_Share\templates\dp_show" />
+      <recent name="D:\WorkSpace\PycharmProjects\DP_Share\templates\dp_user" />
+      <recent name="D:\WorkSpace\PycharmProjects\DP_Share\static\dp_user" />
+      <recent name="D:\WorkSpace\PycharmProjects\DP_Share\templates\dp_share" />
+      <recent name="D:\WorkSpace\PycharmProjects\DP_Share\static\img\backgrounds" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\PycharmProjects\DP_Share\static\dp_show\images" />
+      <recent name="D:\WorkSpace\PycharmProjects\DP_Share\static\dp_center" />
+      <recent name="D:\WorkSpace\PycharmProjects\DP_Share\templates\dp_show" />
+      <recent name="D:\WorkSpace\PycharmProjects\DP_Share\static" />
+      <recent name="D:\WorkSpace\PycharmProjects\DP_Share\static\dp_show\images\logos" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="DP_Share" type="Python.DjangoServer" factoryName="Django server">
+      <module name="DP_Share" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08c20e82-78e8-446b-9128-f5a4c5730ee2" name="Default" comment="" />
+      <created>1536566699094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536566699094</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="273" y="67" width="1382" height="925" extended-state="0" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3294702" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="right" id="Mongo Explorer" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49760765" visible="true" weight="0.19667171" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" sideWeight="0.50239235" side_tool="true" weight="0.21805792" />
+      <window_info anchor="bottom" id="manage.py@DP_Share" order="7" weight="0.22149411" />
+      <window_info id="Favorites" order="2" sideWeight="0.50239235" side_tool="true" weight="0.21805792" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://D:/Anaconda3/pkgs/bokeh-0.12.16-py36_0/Lib/site-packages/bokeh/server/static/js/compiler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9216">
+          <caret line="142084" column="17" selection-start-line="142084" selection-start-column="17" selection-end-line="142084" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/tx.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dp_show/css/layout-white.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2025" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dp_show/css/prettyPhoto.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dp_show/css/skeleton.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dp_user/bootstrap/css/bootstrap-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dp_center/js/vendor/npm.js" />
+    <entry file="file://$PROJECT_DIR$/static/dp_center/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/Anaconda3/pkgs/distributed-1.21.8-py36_0/Lib/site-packages/distributed/bokeh/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="81" column="7" selection-start-line="81" selection-start-column="7" selection-end-line="81" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dp_center/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="4" column="112456" selection-start-line="4" selection-start-column="112456" selection-end-line="4" selection-end-column="112456" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dp_center/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dp_center/img/bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dp_show/images/b1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/web-forms2.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="604" column="16" selection-start-line="604" selection-start-column="16" selection-end-line="604" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dp_user/js/scripts2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" lean-forward="true" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dp_center/js/scripts.js" />
+    <entry file="file://$PROJECT_DIR$/templates/dp_user/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-900">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dp_user/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="243" column="1" selection-start-line="243" selection-start-column="1" selection-end-line="243" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/pkgs/qt-5.9.5-vc14he4a7d60_0/Library/doc/global/template/style/offline-simple.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="669">
+          <caret line="165" column="1" lean-forward="true" selection-start-line="165" selection-start-column="1" selection-end-line="165" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dp_user/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2850">
+          <caret line="114" column="8" selection-start-line="114" selection-start-column="8" selection-end-line="120" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dp_center/css/templatemo-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="794">
+          <caret line="950" column="23" selection-start-line="950" selection-start-column="23" selection-end-line="950" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dp_show/index3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28924" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dp_show/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28735" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dp_imgs/6e6474.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dp_imgs/920d4c.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dp_imgs/8626eb.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dp_imgs/44941b.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dp_imgs/b8b4bf.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dp_imgs/4c804e.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dp_imgs/d1dec9.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dp_imgs/be03ab.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dp_user/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#24#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dp_show/center.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="162" column="68" selection-start-line="162" selection-start-column="68" selection-end-line="162" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dp_user/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/json.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dp_user/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-250">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/all.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-926268" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dp_user/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/script.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53865" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/error.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DP_Share/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dp_show/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="165" column="21" selection-start-line="165" selection-start-column="12" selection-end-line="165" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dp_show/js/jquery.isotope.run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="52" column="12" lean-forward="true" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/structural.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1600">
+          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dp_user/bootstrap/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="4" column="71190" selection-start-line="4" selection-start-column="71190" selection-end-line="4" selection-end-column="71208" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dp_show/js/jquery.sticky.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="55" column="48" lean-forward="true" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dp_show/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <element signature="e#23#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dp_show/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dp_show/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="208" column="117" lean-forward="true" selection-start-line="208" selection-start-column="117" selection-end-line="208" selection-end-column="117" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#nav#0;n#body#0;n#div#0;n#!!top" />
+            <element signature="e#10986#11010#0#DjangoTemplate" />
+            <element signature="e#11302#11326#0#DjangoTemplate" />
+            <element signature="e#12167#12191#0#DjangoTemplate" />
+            <element signature="e#13032#13057#0#DjangoTemplate" />
+            <element signature="e#13899#13922#0#DjangoTemplate" />
+            <element signature="n#div#1;n#body#0;n#div#0;n#!!top" />
+            <element signature="e#16908#16914#0#HTML" expanded="true" />
+            <element signature="e#16957#16963#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#body#0;n#div#0;n#!!top" />
+            <element signature="n#script#0;n#body#0;n#div#0;n#!!top" />
+            <element signature="n#script#1;n#body#0;n#div#0;n#!!top" />
+            <element signature="n#script#2;n#body#0;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dp_show/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dp_show/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="2375" column="23" selection-start-line="2375" selection-start-column="23" selection-end-line="2375" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

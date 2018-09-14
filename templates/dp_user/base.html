@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ title }}--摄绘基地</title>
+
+    <link rel="stylesheet" href="/static/dp_user/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/dp_user/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/static/dp_user/css/form-elements.css">
+    <link rel="stylesheet" href="/static/dp_user/css/style.css">
+
+    <link rel="shortcut icon" href="/static/dp_user/ico/dp_ico.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+          href="/static/dp_user/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114"
+          href="/static/dp_user/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72"
+          href="/static/dp_user/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/static/dp_user/ico/apple-touch-icon-57-precomposed.png">
+
+
+</head>
+
+<body>
+
+<div class="top-content">
+
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                {#                <a class="navbar-brand" href="/">#}
+                {#                    <img class="logo" src="/static/dp_user/img/dp_ico.png">#}
+                {#                </a>#}
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse base-text" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/">摄绘首页 <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">画友</a></li>
+                    <li><a href="#">摄影</a></li>
+                </ul>
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" class="form-control base-top" placeholder="请输入关键字">
+                    </div>
+                    <button type="submit" class="btn btn-default base-btn">查找</button>
+                </form>
+                <ul class="nav navbar-nav navbar-right">
+                    {#                    {% if user %}#}
+                    {#                        <li><a href="#">{{ user.username }}</a></li>#}
+                    <li><a href="#">动态</a></li>
+                    <li><a href="#">公告</a></li>
+                    {#                    {% else %}#}
+                    {#                        <li><a href="#">登录</a></li>#}
+                    {#                        <li><a href="#">注册</a></li>#}
+                    {#                    {% endif %}#}
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <div class="inner-bg">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2 text">
+                    <h1><strong>画友</strong> <strong>摄影</strong></h1>
+                    <div class="description">
+                        <p>
+                            绘画、摄影爱好者的聚集地，分享美妙时刻！
+                        </p>
+                        <p>
+                            绘你所想，<strong>拍我所爱</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            {% block body %}{% endblock %}
+
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3 social-login">
+                    <h3>...或者你想通过:</h3>
+                    <div class="social-login-buttons">
+                        <a class="btn btn-link-2" href="#">
+                            <img src="/static/dp_user/img/logo/wx.png" class="min-logo"> WeChat
+                        </a>
+                        <a class="btn btn-link-2" href="#">
+                            <img src="/static/dp_user/img/logo/qq.png" class="min-logo"> QQ
+                        </a>
+                        <a class="btn btn-link-2" href="#">
+                            <img src="/static/dp_user/img/logo/sina.png" class="min-logo"> Sina
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div>
+    <div>
+        <a href="#">关于我们</a>
+        <span>|</span>
+        <a href="#">联系我们</a>
+        <span>|</span>
+        <a href="#">招聘人才</a>
+        <span>|</span>
+        <a href="#">友情链接</a>
+    </div>
+    <p>CopyRight © 2018 摄绘信息技术有限公司 All Rights Reserved</p>
+    <p>电话：010-****888 京ICP备*******8号</p>
+</div>
+
+<script src="/static/dp_user/js/jquery-1.11.1.min.js"></script>
+<script src="/static/dp_user/bootstrap/js/bootstrap.min.js"></script>
+<script src="/static/dp_user/js/jquery.backstretch.min.js"></script>
+{% block head %}{% endblock %}
+
+
+</body>
+
+</html>

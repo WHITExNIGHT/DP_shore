@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>画友--摄绘基地</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="/static/dp_user/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/dp_show/css/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="/static/dp_show/css/layout.css">
+    <link rel="stylesheet" type="text/css" href="/static/dp_show/css/prettyPhoto.css">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/static/dp_show/images/favicon.ico">
+    <link rel="apple-touch-icon" href="/static/dp_show/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/static/dp_show/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/static/dp_show/images/apple-touch-icon-114x114.png">
+
+    <!-- Google Web Fonts -->
+    <link href="/static/dp_show/http://fonts.useso.com/css?family=Oswald:400,700,300" rel="stylesheet" type="text/css">
+
+    <!-- JavaScripts -->
+    <script type="text/javascript" src="/static/dp_show/js/prefixfree.min.js"></script>
+    <script type="text/javascript" src="/static/dp_show/js/modernizr-2.6.2.js"></script>
+    <script type="text/javascript" src="/static/dp_show/js/iOS-timer.js"></script>
+    <script type="text/javascript" src="/static/dp_show/js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="/static/dp_show/js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="/static/dp_show/js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="/static/dp_show/js/jquery.isotope.run.js"></script>
+    <script type="text/javascript" src="/static/dp_show/js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="/static/dp_show/js/jquery.mobile-touch-swipe-1.0.js"></script>
+    <script type="text/javascript" src="/static/dp_show/js/jquery.lazyload.js"></script>
+    <script type="text/javascript" src="/static/dp_show/js/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="/static/dp_show/js/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="/static/dp_show/js/custom-video.js"></script>
+    <script type="text/javascript" src="/static/dp_show/js/contact_form.js"></script>
+    <script type="text/javascript" src="/static/dp_show/js/tooltip.js"></script>
+    <script type="text/javascript" src="/static/dp_show/js/jquery.sticky.js"></script>
+
+
+    <script type="text/javascript">
+
+        var isMobile = false;
+
+        if (navigator.userAgent.match(/Android/i) ||
+            navigator.userAgent.match(/webOS/i) ||
+            navigator.userAgent.match(/iPhone/i) ||
+            navigator.userAgent.match(/iPad/i) ||
+            navigator.userAgent.match(/iPod/i) ||
+            navigator.userAgent.match(/BlackBerry/i)) {
+
+            isMobile = true;
+
+        }
+
+        /*iOS5 fixed-menu fix*/
+        var iOS5 = false;
+
+        if (navigator.userAgent.match(/OS 5(_\d)+ like Mac OS X/i)) {
+
+            iOS5 = true;
+
+        }
+
+
+    </script>
+
+
+    <script type="text/javascript" src="/static/dp_show/js/jquery.mb.YTPlayer.js"></script>
+    <script type="text/javascript">
+
+        jQuery(function () {
+
+            jQuery("button").not(".command").click(function () {
+                jQuery("button").not(".command").removeClass("sel");
+                jQuery(this).addClass("sel");
+            });
+
+            //debug functions
+            jQuery("#bgndVideo").on("YTPStart", function () {
+                jQuery("#eventListener").html("YTPStart")
+            });
+            jQuery("#bgndVideo").on("YTPEnd", function () {
+                jQuery("#eventListener").html("YTPEnd")
+            });
+            jQuery("#bgndVideo").on("YTPPause", function () {
+                jQuery("#eventListener").html("YTPPause")
+            });
+            jQuery("#bgndVideo").on("YTPBuffering", function () {
+                jQuery("#eventListener").html("YTPBuffering")
+            });
+
+            jQuery("#bgndVideo").mb_YTPlayer();
+
+        });
+
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("nav").sticky({topSpacing: 0});
+        });
+    </script>
+
+</head>
+
+
+<body style="text-align: center">
+<div class="body">
+    <nav class="nav-top">
+
+        <div class="container con-width">
+
+            <div class="sixteen columns six-width">
+
+                <nav class="navbar navbar-default">
+                    <div class="container con-width">
+                        <div class="collapse navbar-collapse base-text" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="/">摄绘首页 <span class="sr-only">(current)</span></a></li>
+                                <li><a href="">画友</a></li>
+                                <li><a href="#">摄影</a></li>
+                            </ul>
+                            <form class="navbar-form navbar-left">
+                                <div class="form-group">
+                                    <input type="text" class="form-control base-top" placeholder="请输入关键字">
+                                </div>
+                                <button type="submit" class="btn btn-default base-btn">查找</button>
+                            </form>
+                            <ul class="nav navbar-nav navbar-right">
+
+
+                                {#                            <li><a href="/dp/center/{{ user.id }}">#}
+                                {#                                <div class="statsWrap min-wrap">#}
+                                {#                                    <div class="stats">#}
+                                {#                                        <div class="statDummy-t"></div>#}
+                                {#                                        <div class="statInfo round_icon">#}
+                                {##}
+                                {#                                            <p class="statNumber"><img src="/static/tx.jpg" class="round_icon icon_b" alt=""></p>#}
+                                {#                                            <p class="statText"><img src="/static/tx.jpg" class="round_icon icon_b" alt=""></p>#}
+                                {#                                        </div>#}
+                                {#                                    </div>#}
+                                {#                                </div>#}
+                                {#                            </a></li>#}
+
+                                {% if login == 1 %}
+                                    <li><a href="/dp/center/{{ user.id }}"><img src="/static/tx.jpg" class="round_icon"
+                                                                                alt=""></a></li>
+                                    <li><a href="/dp/center/{{ user.id }}"
+                                           style="font-size: 10px">{{ user.unickname }}</a>
+                                    </li>
+                                    <li><a href="/user/logout/" style="font-size: 10px">退出</a></li>
+                                {% else %}
+                                    <li><a href="/user/login/">登录</a></li>
+                                    <li><a href="/user/register/">注册</a></li>
+                                {% endif %}
+                                <li><a href="#">动态</a></li>
+                                <li><a href="#">公告</a></li>
+
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                </nav>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <div id="folio" class="page section">
+
+        <div class="container con-width">
+
+            <div class="sixteen columns con-width">
+                <div class="sixteen columns con-width">
+                    <section class="slider">
+                        <div id="carouselSlider" class="flexslider carousel">
+                            <ul class="slides page-title">
+                                <li><img src="/static/dp_show/images/logos/16.png" alt="Marlin"/></li>
+                                <li><img src="/static/dp_show/images/logos/15.jpg" alt="Marlin"/></li>
+                                <li><img src="/static/dp_show/images/logos/14.png" alt="Marlin"/></li>
+                                <li><img src="/static/dp_show/images/logos/13.png" alt="Marlin"/></li>
+                                <li><img src="/static/dp_show/images/logos/12.png" alt="Marlin"/></li>
+                                <li><img src="/static/dp_show/images/logos/11.png" alt="Marlin"/></li>
+                                <li><img src="/static/dp_show/images/logos/10.png" alt="Marlin"/></li>
+                                <li><img src="/static/dp_show/images/logos/9.png" alt="Marlin"/></li>
+                                <li><img src="/static/dp_show/images/logos/8.jpg" alt="Marlin"/></li>
+                                <li><img src="/static/dp_show/images/logos/7.jpg" alt="Aquatic"/></li>
+                                <li><img src="/static/dp_show/images/logos/6.jpg" alt="Dalmation Design"/></li>
+                                <li><img src="/static/dp_show/images/logos/5.jpg" alt="Imperius"/></li>
+                                <li><img src="/static/dp_show/images/logos/4.jpg" alt="Octopixel"/></li>
+                                <li><img src="/static/dp_show/images/logos/3.jpg" alt="Sirius"/></li>
+                                <li><img src="/static/dp_show/images/logos/2.jpg" alt="Solenergy"/></li>
+                                <li><img src="/static/dp_show/images/logos/1.jpg" alt="Spiralus"/></li>
+                                <li><img src="/static/dp_show/images/logos/0.jpg" alt="Think Pink"/></li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="gallerySelector">
+            <ul class="gallerySelectorList">
+                <li class="current"><a data-filter="article.portfolio[data-category~='all']" href="/static/dp_show/#">所有</a></li>
+                <li><a data-filter="article.portfolio[data-category~='hotdraw']" href="/static/dp_show/#">最热</a></li>
+                <li><a data-filter="article.portfolio[data-category~='newdraw']" href="/static/dp_show/#">最新</a></li>
+                <li><a data-filter="article.portfolio[data-category~='bestdraw']" href="/static/dp_show/#">最佳</a></li>
+                <li><a data-filter="article.portfolio[data-category~='mydraw']" href="/static/dp_show/#">我的</a></li>
+            </ul>
+        </div>
+
+        <section class="portfolio_container">
+
+            {% for foo in alldraw %}
+                <article class="portfolio" data-category="all">
+                    <section class="thumbImage">
+                        <img src="/static/{{ foo.iimg }}" alt="" class="fullwidth">
+                        <div class="thumbTextWrap">
+                            <div class="thumbText">
+                                <h3 class="sectionTitle">{{ foo.ititle }}</h3>
+                                <p>{{ foo.icontent|safe }}</p>
+                                <a class="thumbLink" href="/static/{{ foo.iimg }}"
+                                   rel="prettyPhoto[gallery1]"
+                                   title=" "></a>
+                            </div>
+                        </div>
+                    </section>
+                </article>
+            {% endfor %}
+
+            {% for foo in hotdraw %}
+                <article class="portfolio" data-category="hotdraw">
+                    <section class="thumbImage">
+                        <img src="/static/{{ foo.iimg }}" alt="" class="fullwidth">
+                        <div class="thumbTextWrap">
+                            <div class="thumbText">
+                                <h3 class="sectionTitle">{{ foo.ititle }}</h3>
+                                <p>{{ foo.icontent|safe }}</p>
+                                <a class="thumbLink" href="/static/{{ foo.iimg }}"
+                                   rel="prettyPhoto[gallery1]"
+                                   title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                            </div>
+                        </div>
+                    </section>
+                </article>
+            {% endfor %}
+
+            {% for foo in newdraw %}
+                <article class="portfolio" data-category="newdraw">
+                    <section class="thumbImage">
+                        <img src="/static/{{ foo.iimg }}" alt="" class="fullwidth">
+                        <div class="thumbTextWrap">
+                            <div class="thumbText">
+                                <h3 class="sectionTitle">{{ foo.ititle }}</h3>
+                                <p>{{ foo.icontent|safe }}</p>
+                                <a class="thumbLink" href="/static/{{ foo.iimg }}"
+                                   rel="prettyPhoto[gallery1]"
+                                   title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                            </div>
+                        </div>
+                    </section>
+                </article>
+            {% endfor %}
+
+            {% for foo in bestdraw %}
+                <article class="portfolio" data-category="bestdraw">
+                    <section class="thumbImage">
+                        <img src="/static/{{ foo.iimg }}" alt="" class="fullwidth">
+                        <div class="thumbTextWrap">
+                            <div class="thumbText">
+                                <h3 class="sectionTitle">{{ foo.ititle }}</h3>
+                                <p>{{ foo.icontent|safe }}</p>
+                                <a class="thumbLink" href="/static/{{ foo.iimg }}"
+                                   rel="prettyPhoto[gallery1]"
+                                   title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                            </div>
+                        </div>
+                    </section>
+                </article>
+            {% endfor %}
+
+            {% for foo in mydraw %}
+                <article class="portfolio" data-category="mydraw">
+                    <section class="thumbImage">
+                        <img src="/static/{{ foo.iimg }}" alt="" class="fullwidth">
+                        <div class="thumbTextWrap">
+                            <div class="thumbText">
+                                <h3 class="sectionTitle">{{ foo.ititle }}</h3>
+                                <p>{{ foo.icontent|safe }}</p>
+                                <a class="thumbLink" href="/static/{{ foo.iimg }}"
+                                   rel="prettyPhoto[gallery1]"
+                                   title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat hendrerit dictum."></a>
+                            </div>
+                        </div>
+                    </section>
+                </article>
+            {% endfor %}
+
+        </section>
+        <div class="portfolioBottom">
+                    <div id="loading">点击查看更多</div>
+        </div>
+
+        <!--start parallax 1-->
+        <div id="parallax-1" class="parallax fixed" style="background-image: url(/static/dp_show/images/b1.jpg);">
+            <div class="quoteWrap">
+                <div class="quote">
+                    <div class="container">
+                        <div class="sixteen columns">
+                            <h3><span class="large"></span>标题: <span class="largeBold">strange.</span>
+                                <br><span class="medium">作者:</span> <span class="mediumBold">normal.</span>
+                                <br><span class="author">——2018.9.12</span></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--end portfolio-->
+
+
+    <!--start contact-->
+    <div id="contact" class="page section">
+
+        <div class="container contactContainer">
+
+            <div class="sixteen columns">
+                <h1>Contact<span>Us</span></h1>
+                <h3><span class="mediumBold">Get in</span> <span class="medium">touch</span>
+                    <br><span class="medium">let's</span> <span class="mediumBold">have a chat</span>
+                    <br><span class="large">we can</span> <span class="largeBold">help you</span>
+                    <br><span class="medium">promote</span> <span class="mediumBold">your business.</span>
+                </h3>
+            </div>
+
+            <div class="three columns marginTop contactDetails">
+                <p class="contactAddress">123 Flinders St<br/>Melbourne VIC 3000
+                    <br/><a href="/static/dp_show/#?custom=true&width=500&height=500" rel="prettyPhoto">Google Map</a>
+                </p>
+            </div>
+            <div class="three columns marginTop contactDetails">
+                <p class="contactPhone">Phone: (03) 1234 5678</p>
+                <p class="contactEmail">Email: <a href="/static/dp_show/#">office@surreal.com.au</a></p>
+                <p class="contactSkype">Skype: <a href="/static/dp_show/#">melb@surreal.com.au</a></p>
+            </div>
+            <div class="three columns marginTop contactDetails">
+                <p class="contactTime">
+                    Mon-Fri: 9:00am &rarr; 5:30pm <br/>
+                    Sat: 10:00am &rarr; 2:30pm <br/>
+                    Sunday: Closed
+                </p>
+            </div>
+
+
+            <div id="contact_form">
+                <div class="two-thirds column marginTop formWrap">
+                    <form action="#" method="post" class="contactForm">
+                        <div class="formSecWrap">
+                            <label for="form_name">Name</label>
+                            <input type="text" id="form_name" name="form_name" value=""/>
+
+                            <label for="form_email">Email</label>
+                            <input type="text" name="form_email" id="form_email" value=""/>
+
+                            <label for="form_subject">Subject</label>
+                            <input type="text" name="form_subject" id="form_subject" value=""/>
+                        </div>
+                        <div class="formSecWrap formSecWrap2">
+                            <label for="form_message">Message</label>
+                            <textarea class="textarea" name="form_message" id="form_message"></textarea>
+
+                            <input class="button" id="submit-form" type="submit" name="submit" value="Send Message"/>
+                        </div>
+                        <div id="success"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <!--start parallax 5-->
+        <div id="parallax-5" class="parallax fixed"
+             style="background-image: url(/static/dp_show/images/parallax-5.jpg);">
+            <div class="quoteWrap">
+                <div class="quote">
+                    <div class="container">
+                        <div class="sixteen columns">
+                            <h3>
+                                <span class="large">Visit our</span> <span class="largeBold">funky studio</span>
+                                <br><span class="medium">in the heart of</span><span class="mediumBold"> Sydney.</span>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end parallax 5-->
+
+    </div>
+    <!--end contact-->
+
+
+    <!--start footer-->
+    <div id="footer">
+
+        <div class="container">
+
+
+            <div class="sixteen columns">
+                <p class="copyright">&copy; Surreal Studio 2012. <br/>All rights reserved. More Templates <a
+                        href="/static/dp_show/http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a>.</p>
+            </div>
+        </div>
+    </div>
+    <!--end footer-->
+
+    <script type="text/javascript">
+        function moveTo(contentArea) {
+            var goPosition = $(contentArea).offset().top;
+            $('html,body').animate({scrollTop: goPosition}, 'slow');
+        }
+    </script>
+
+    <script type="text/javascript">
+        $('#carouselSlider').flexslider({
+            animation: "slide",
+            animationLoop: true,
+            itemWidth: 280,
+            itemMargin: 2,
+            start: function (slider) {
+                $('body').removeClass('loading');
+            }
+        });
+    </script>
+
+    <script type="text/javascript" charset="utf-8">
+        $(document).ready(function () {
+
+            $("a[rel^='prettyPhoto']").prettyPhoto({animation_speed: 'normal', slideshow: 6000});
+            $(".contactDetails a[rel^='prettyPhoto']:first").prettyPhoto({
+                custom_markup: '<div id="map_canvas" style="width:500px; height:500px"></div>',
+                changepicturecallback: function () {
+                    initialize();
+                }
+            });
+        });
+    </script>
+
+</div>
+</body>
+</html>
